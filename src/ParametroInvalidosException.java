@@ -1,4 +1,4 @@
-public class ParametroInvalidosException extends Exception {
+public class ParametroInvalidosException extends RuntimeException {
   public ParametroInvalidosException(String msg) {
     super(msg);
   }
